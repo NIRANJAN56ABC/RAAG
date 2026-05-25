@@ -7,7 +7,7 @@ def generate_answer(query: str, context: str):
     prompt = f"""
 You are an AI assistant.
 
-Use ONLY  context below to answer.
+Use ONLY this context below to answer.
 
 Context:
 {context}
